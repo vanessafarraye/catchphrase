@@ -1,3 +1,28 @@
 #phrases-ul {
 	font-size: 17px
 }
+
+h1 {
+	color: rgb(229, 23, 229);
+}
+
+
+
+#submitButton{
+	background-color: rgb(229, 23, 229);	
+}
+
+.list-group {
+	color: rgb(199, 41, 199);
+}
+
+.label {
+	color: white;
+	background-color: rgb(104, 6, 90);
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.list-group-item {
+	font-size: 18px
+}
