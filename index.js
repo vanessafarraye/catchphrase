@@ -10,12 +10,11 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
   var phrases = [
-  			{id: 0, word: "hello", definition: "ffjkdnff"},
-  			{id: 1, word: "bye", definition: "sjdndfj"},
-  			{id: 2, word: "bye2", definition: "kjfnkdjwd"},
-  			{id: 3, word: "hello2", definition: "sdndjnd"},
-  			{id: 4, word: "hello3", definition: "sjkhn"},
-  			{id: 5, word: "hello4", definition: "hdjds"}
+  			{id: 0, word: "Boolean", definition: "is a data type havig two value, true or false"},
+  			{id: 1, word: "Node.js", definition: "is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications."},
+  			{id: 2, word: "Terminal", definition: "A device that enables you to communicate with a computer."},
+  			{id: 3, word: "First class function", definition: "passing functions as arguments to other functions, returning them as the values from other functions."},
+  			{id: 4, word: "Callback", definition: "is a function that is passed to another function as a parameter and the callback function is called inside that function."}
   ];
 
 
